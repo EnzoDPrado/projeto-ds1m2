@@ -7,14 +7,22 @@
 main{
     height: 100vh;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(#000000,#434343);
     font-size: 100px;
 }
 
-h1{
+main h1{
     color:white;
     font-size: 4rem;
     font-style: initial;
+}
+
+main a{
+    font-size: 2rem;
+    color:white;
+
+    
 }
